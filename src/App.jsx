@@ -3,7 +3,7 @@ import "./App.css";
 import ImageGallery from "./components/ImageGallery/ImageGallery";
 import Loader from "./components/Loader/Loader";
 import Error from "./components/ErrorMessage/ErrorMessage";
-import getImages from "./api/image-api";
+import getImages from "./Api/image-api";
 import SearchBar from "./components/SearchBar/SearchBar";
 import ImageModal from "./components/ImageModal/ImageModal";
 import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
