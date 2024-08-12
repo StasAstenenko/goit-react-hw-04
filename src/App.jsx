@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import ImageGallery from "./Components/ImageGallery/ImageGallery";
-import Loader from "./Components/Loader/Loader";
-import Error from "./Components/ErrorMessage/ErrorMessage";
+import ImageGallery from "./components/ImageGallery/ImageGallery";
+import Loader from "./components/Loader/Loader";
+import Error from "./components/ErrorMessage/ErrorMessage";
 import getImages from "./Api/image-api";
-import SearchBar from "./Components/SearchBar/SearchBar";
-import ImageModal from "./Components/ImageModal/ImageModal";
-import LoadMoreBtn from "./Components/LoadMoreBtn/LoadMoreBtn";
+import SearchBar from "./components/SearchBar/SearchBar";
+import ImageModal from "./components/ImageModal/ImageModal";
+import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
 
 function App() {
   const [articles, setArticles] = useState([]);
